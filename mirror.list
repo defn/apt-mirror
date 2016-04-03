@@ -20,3 +20,18 @@ deb-src http://archive.ubuntu.com/ubuntu trusty main restricted universe multive
 deb-src http://archive.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
 deb-src http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
 deb-src http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
+
+deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
+deb-amd64 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb-amd64 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
+deb-src http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
