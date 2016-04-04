@@ -9,7 +9,9 @@ function home_update {
   ln -nfs "$shome/script/rewrite-apt.pl" "$BASEBOX_CACHE/cache/apt-mirror/"
   ln -nfs "$shome/script/postmirror.sh" "$BASEBOX_CACHE/cache/apt-mirror/var/"
 
-  block compile service
+  block compile cljs "$shome/server.cljs" "$shome/server"
+
+  "$shome/script/update"
 }
 
 home_update "$@"

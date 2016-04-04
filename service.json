@@ -1,0 +1,9 @@
+{
+  "services": {
+    "apt-mirror": {
+      "run": "~/work/apt-mirror/script/server",
+      "env": {
+      }
+    }
+  }
+}

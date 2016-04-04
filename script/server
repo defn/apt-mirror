@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+function apt_mirror_server {
+  local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
+  source "$shome/script/profile"
+
+  exec "$shome/server"
+}
+
+apt_mirror_server "$@"
