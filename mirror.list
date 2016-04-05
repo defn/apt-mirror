@@ -2,7 +2,7 @@ set base_path         /vagrant/cache/apt-mirror
 set mirror_path       $base_path/mirror
 set skel_path         $base_path/skel
 set var_path          $base_path/var
-set nthreads          5
+set nthreads          30
 set _tilde            0
 set defaultarch       amd64
 
