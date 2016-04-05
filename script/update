@@ -4,7 +4,7 @@ function home_update {
   local shome="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"
   source "$shome/script/profile"
 
-  mkdir -p "$BASEBOX_CACHE/cache/apt-mirror"
+  mkdir -p "$BASEBOX_CACHE/cache/apt-mirror/var"
 
   ln -nfs "$shome/script/rewrite-apt.pl" "$BASEBOX_CACHE/cache/apt-mirror/"
   ln -nfs "$shome/script/postmirror.sh" "$BASEBOX_CACHE/cache/apt-mirror/var/"
