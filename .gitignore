@@ -2,3 +2,4 @@
 *.tar.*
 /server
 /sv
+/script/clean.sh
