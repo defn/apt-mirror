@@ -1,6 +1,7 @@
 {
   "require": [
     "cache",
-    "cljs"
+    "cljs",
+    "runit"
   ]
 }
