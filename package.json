@@ -1,0 +1,17 @@
+{
+  "name": "defn",
+  "version": "0.1.0",
+  "private": "true",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0",
+    "terminal.js": "^1.0.7"
+  },
+  "devDependencies": {
+    "source-map-support": "0.4.0",
+    "ws": "0.8.1"
+  }
+}
