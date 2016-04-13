@@ -8,6 +8,7 @@ function home_update {
 
   ln -nfs "$shome/script/rewrite-apt.pl" "$BASEBOX_CACHE/cache/apt-mirror/"
   ln -nfs "$shome/script/postmirror.sh" "$BASEBOX_CACHE/cache/apt-mirror/var/"
+  touch "$shome/script/clean.sh"
   ln -nfs "$shome/script/clean.sh" "$BASEBOX_CACHE/cache/apt-mirror/var/"
 
   npm install
