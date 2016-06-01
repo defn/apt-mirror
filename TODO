@@ -1,0 +1,16 @@
+==> inception: ~/work/apt-mirror ~
+==> inception: install:
+==> inception: cannot change permissions of ‘/vagrant/cache/apt-mirror’
+==> inception: : No such file or directory
+==> inception: install:
+==> inception: cannot create directory ‘/vagrant/cache/apt-mirror’
+==> inception: : File exists
+==> inception: ln:
+==> inception: target ‘/vagrant/cache/apt-mirror/’ is not a directory
+==> inception: : No such file or directory
+==> inception: ln:
+==> inception: target ‘/vagrant/cache/apt-mirror/var/’ is not a directory
+==> inception: : No such file or directory
+==> inception: ln:
+==> inception: target ‘/vagrant/cache/apt-mirror/var/’ is not a directory
+==> inception: : No such file or directory
