@@ -23,3 +23,6 @@ deb-src http://archive.ubuntu.com/ubuntu trusty-backports main restricted univer
 
 deb http://apt.dockerproject.org/repo ubuntu-trusty main
 deb http://apt.linode.com/ trusty main
+deb http://binaries.erlang-solutions.com/debian trusty contrib
+deb http://download.rethinkdb.com/apt trusty main
+deb http://ppa.launchpad.net/ubuntu-lxc/lxd-stable/ubuntu trusty main
