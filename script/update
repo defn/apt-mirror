@@ -17,8 +17,6 @@ function home_update {
   fi
 
   npm install
-
-  block compile service
 }
 
 home_update "$@"
