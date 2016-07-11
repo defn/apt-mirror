@@ -4,7 +4,19 @@ function apt_mirror_server {
   local shome="${_apt_mirror_home:-"$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)"}"
   source "$shome/script/profile"
 
-  exec "$shome/server"
+  if [[ "$#" == 0 ]]; then
+    set -- default
+  fi
+
+  case "${1:-}" in
+    default)
+      exec "$shome/server"
+      ;;
+    *)
+      echo "ERROR: unknown server command: ${1:-/not-supplied/}" 1>&2
+      return 1
+      ;;
+  esac
 }
 
 apt_mirror_server "$@"
