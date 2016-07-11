@@ -1,7 +1,7 @@
 {
   "require": [
     "cache",
-    "cljs",
-    "runit"
+    "service",
+    "cljs"
   ]
 }
