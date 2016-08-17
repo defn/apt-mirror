@@ -10,7 +10,7 @@ while (<>) {
 
   if (-d "$ENV{'CACHE_DIR'}/cache/apt-mirror/mirror/archive.ubuntu.com") {
     if (m{^(https?)://[^/]*(archive|security).ubuntu.com/(.*)}) {
-      print "OK rewrite-url=\"$ENV{'CACHE_VIP'}:3000/$3\"\n";
+      print "OK rewrite-url=\"http://$ENV{'CACHE_VIP'}:3000/$3\"\n";
       next;
     } 
   }
