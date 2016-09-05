@@ -14,8 +14,10 @@ function home_update {
 
     ln -nfs "$shome/script/clean.sh" "$pth_mirror/var/"
     ln -nfs "$shome/script/postmirror.sh" "$pth_mirror/var/"
-    if [[ ! -e "$pth_mirror/rewrite-apt.pl" ]]; then
-      ln -nfs "$shome/script/rewrite-apt.pl" "$pth_mirror/"
+    if [[ -e "$pth_mirror/rewrite-apt.pl" || -L "$pth_mirror/rewrite-apt.pl" ]]; then
+      true
+    else
+      ln -vnfs "$shome/script/rewrite-apt.pl" "$pth_mirror/"
     fi
   fi
 
