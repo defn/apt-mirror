@@ -6,7 +6,7 @@ function home_update {
 
   touch "$shome/script/clean.sh"
 
-  install -dv -m 0755 "$BASEBOX_CACHE/cache/apt-mirror" 2>&- || true
+  install -dv -m 0755 "$BASEBOX_CACHE/cache/apt-mirror" 2>/dev/null || true
 
   local pth_mirror="${CACHE_DIR}/cache/apt-mirror"
   if [[ -d "$pth_mirror/." ]]; then
