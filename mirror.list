@@ -21,6 +21,21 @@ deb-src http://archive.ubuntu.com/ubuntu trusty-security main restricted univers
 deb-src http://archive.ubuntu.com/ubuntu trusty-updates main restricted universe multiverse
 deb-src http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse
 
+deb-i386 http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb-i386 http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
+deb http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
+deb-src http://archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
+deb-src http://archive.ubuntu.com/ubuntu xenial-backports main restricted universe multiverse
+
 deb http://apt.dockerproject.org/repo ubuntu-trusty main
 deb http://apt.linode.com/ trusty main
 deb http://binaries.erlang-solutions.com/debian trusty contrib
